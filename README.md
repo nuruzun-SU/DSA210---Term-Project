@@ -17,9 +17,9 @@ The data for this project will come from different financial and ESG rating sour
 ## Merging the Data
 
 To combine ESG and stock data, we need a common key:
-    ### Company Name or Ticker Symbol: 
-     Each company in the S&P 500 has a unique ticker symbol, like "AAPL" (Apple) or "GOOGL" (Google). The ESG data should also include these identifiers.
-    ### Date (Timestamp):
-     ESG data is usually reported yearly or quarterly, so stock price data must be adjusted to match the same time periods.
+  - ### Company Name or Ticker Symbol: 
+    Each company in the S&P 500 has a unique ticker symbol, like "AAPL" (Apple) or "GOOGL" (Google). The ESG data should also include these identifiers.
+  - ### Date (Timestamp):
+    ESG data is usually reported yearly or quarterly, so stock price data must be adjusted to match the same time periods.
 
 By linking ESG scores with stock performance, this study will explore whether strong ESG performance leads to higher stock prices and lower risk. The results may help investors and businesses make smarter ESG-focused investment choices.
