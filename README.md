@@ -4,6 +4,7 @@
 ## Motivation
 
   Environmental, Social, and Governance (ESG) factors are becoming more important in investment decisions. Investors and analysts want to understand how ESG performance affects stock prices and long-term financial success. This project will study whether companies with higher ESG scores have better stock performance, lower risk, or higher returns.
+  
   By analyzing the link between ESG performance and stock value in the S&P 500, this research can provide useful insights for investors, financial managers, and policymakers. The goal is to help them make better decisions that balance financial success with sustainability.
 
 ## Data Source
