@@ -1,26 +1,24 @@
 # DSA210---Term-Project
 
-# The Relationship Between S&P 500 ESG Performance and Their Stock Value
-## Motivation
+## **The Relationship Between S&P 500 ESG Scores and Their Stock Prices (Annual Return)**
 
-  Environmental, Social, and Governance (ESG) factors are becoming more important in investment decisions. Investors and analysts want to understand how ESG performance affects stock prices and long-term financial success. This project will study whether companies with higher ESG scores have better stock performance, lower risk, or higher returns.
-  
-  By analyzing the link between ESG performance and stock value in the S&P 500, this research can provide useful insights for investors, financial managers, and policymakers. The goal is to help them make better decisions that balance financial success with sustainability.
+### **Motivation**
 
-## Data Source
+Environmental, Social, and Governance (ESG) factors are playing an increasingly central role in modern investment strategies. As ESG performance becomes more relevant to ethical and regulatory standards, investors and analysts seek to understand whether it also has a measurable impact on financial outcomes—especially stock performance.
 
-The data for this project will come from different financial and ESG rating sources:
-  - ### ESG Data:
-    ESG scores for S&P 500 companies will be collected from platforms like Refinitiv, MSCI ESG Ratings, or Sustainalytics. These sources provide ESG scores annually or quarterly, along with details on environmental, social, and governance factors.
-  - ### Stock Market Data:
-    Historical stock prices and financial data will be taken from sources like Yahoo Finance, Bloomberg, or Alpha Vantage. This includes stock returns, market value, and risk levels.
+This project investigates whether companies with higher ESG scores achieve better annual stock returns. By focusing on S&P 500 companies and examining their ESG ratings alongside financial data from January 2023 to August 2024, this research aims to provide insights that help investors, financial managers, and policymakers make informed, sustainability-oriented decisions.
 
-## Merging the Data
+### **Data Source**
 
-To combine ESG and stock data, we need a common key:
-  - ### Company Name or Ticker Symbol: 
-    Each company in the S&P 500 has a unique ticker symbol, like "AAPL" (Apple) or "GOOGL" (Google). The ESG data should also include these identifiers.
-  - ### Date (Timestamp):
-    ESG data is usually reported yearly or quarterly, so stock price data must be adjusted to match the same time periods.
+The data used in this analysis includes both ESG ratings and historical stock market data:
 
-By linking ESG scores with stock performance, this study will explore whether strong ESG performance leads to higher stock prices and lower risk. The results may help investors and businesses make smarter ESG-focused investment choices.
+- **ESG Data**: ESG scores for S&P 500 companies were sourced from platforms like Refinitiv or other reliable ESG providers. For this project, scores announced in **September 2023** were used to evaluate the companies’ sustainability performance.
+
+- **Stock Market Data**: Daily stock prices were collected from platforms like Yahoo Finance. The analysis focused on the price change between **January 3, 2023** and **August 30, 2024**, which was used to calculate each company’s **annual return**.
+
+### **Merging the Data**
+
+To align ESG scores with stock performance data, a structured merging approach was followed:
+
+- **Ticker Symbol**: Each company is matched using its unique stock ticker (e.g., AAPL, MSFT).
+- **Timeframe Alignment**: ESG scores published in September 2023 were assumed to reflect sustainability standing over the following period. Stock returns were calculated based on the price difference before and after this ESG rating release.
